@@ -1,3 +1,8 @@
+"homepage": "https://your-username.github.io/hero-seekers"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 {
   "name": "rest-express",
   "version": "1.0.0",
