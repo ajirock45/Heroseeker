@@ -1,3 +1,4 @@
+npm run deploy
 hero-seekers/
 ├── public/
 ├── src/
