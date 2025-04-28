@@ -1,4 +1,4 @@
-npm run deploy
+
 hero-seekers/
 ├── public/
 ├── src/
@@ -8,3 +8,7 @@ hero-seekers/
 ├── package.json
 ├── README.md
 └── vite.config.ts (if using Vite)
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
